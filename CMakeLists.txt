@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD 99)
 # https://www.reddit.com/r/raylib/comments/ecz6ja/problem_getting_started_with_project_cmake_file/fbkip7u?utm_source=share&utm_medium=web2x&context=3
 
 # Set this to the minimal version you want to support
-find_package(raylib 3.5 QUIET) # Let CMake search for a raylib-config.cmake
+find_package(raylib 3.7 QUIET) # Let CMake search for a raylib-config.cmake
 
 # You could change the QUIET above to REQUIRED and remove this if() clause
 # This part downloads raylib and builds it if it's not installed on your system
